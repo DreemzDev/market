@@ -7,7 +7,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.css" rel="stylesheet"/>
-    
+
+
 </head>
 <body class="bg-white">
     <header>
@@ -193,62 +194,34 @@
 <!-- bootom navigat -->
 <div class="lg:hidden fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 border  rounded-full bottom-4 left-1/2 bg-gray-500 border-gray-400">
     <div class="grid h-full max-w-lg grid-cols-5 px-4">
-        <button data-tooltip-target="tooltip-home" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-s-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
-           
+        <button type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-s-full   group"> 
             <svg class="size-7  text-gray-300 " viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.7998 5H21.2998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M16.7998 12H21.2998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M3.2998 19H21.2998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M7.57096 12.6253C9.9757 12.6253 11.9251 10.6759 11.9251 8.27116C11.9251 5.86642 9.9757 3.91699 7.57096 3.91699C5.16622 3.91699 3.2168 5.86642 3.2168 8.27116C3.2168 10.6759 5.16622 12.6253 7.57096 12.6253Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12.7999 13.5001L10.8555 11.5557" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             <span class="text-xs text-white">Каталог</span>
         </button>
-        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-            Каталог
-            <div class="tooltip-arrow" data-popper-arrow></div>
-        </div>
-        <button data-tooltip-target="tooltip-wallet" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
-            
+        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 group">
             <svg class="size-7  text-gray-300 "  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
             </svg>
-
             <span class="text-xs text-white">Корзина</span>
         </button>
-        <div id="tooltip-wallet" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-            Корзина
-            <div class="tooltip-arrow" data-popper-arrow></div>
-        </div>
         <div class="flex items-center justify-center">
-            <button data-tooltip-target="tooltip-new" type="button" class="inline-flex items-center justify-center w-56 font-medium bg-grey-600 rounded-full  focus:outline-none ">
-
+            <button type="button" class="inline-flex items-center justify-center w-56 font-medium bg-grey-600 rounded-full  focus:outline-none ">
                 <img class="w-96" src="img/minlogo.png" alt="">
                 <span class="sr-only">Home</span>
             </button>
         </div>
-        <div id="tooltip-new" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-            Home
-            <div class="tooltip-arrow" data-popper-arrow></div>
-        </div>
-        <button data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
-
+        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
             <svg class="size-7  text-gray-300 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
             </svg>
-
             <span class="text-xs text-white">Избранное</span>
         </button>
-        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-            Избранное
-            <div class="tooltip-arrow" data-popper-arrow></div>
-        </div>
-        <button data-tooltip-target="tooltip-profile" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
-            
+        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
             <svg class="size-7  text-gray-300 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
             </svg>
-
             <span class="text-xs text-white">Войти</span>
         </button>
-        <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-            Войти
-            <div class="tooltip-arrow" data-popper-arrow></div>
-        </div>
     </div>
 </div>
 
@@ -309,7 +282,42 @@
         </div>
     </article>
     <article class="relative top-14 lg:-top-6 lg:z-50  bg-white rounded-t-3xl">
-        <div class="py-14 overflow-x-auto  flex justify-center mx-auto gap-8 items-center max-w-[1500px] ">
+    <div class="swiper py-14 mx-auto max-w-[1500px]"id="swiper2">
+        <div class="swiper-wrapper justify-center">
+            <!-- items1 -->
+            <div class="swiper-slide ">
+            <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
+                <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                <span class="text-base font-semibold pt-2">Текст 1</span>
+            </div>
+            </div>
+            <!-- items2 -->
+            <div class="swiper-slide ">
+                <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">Текст 2</span>
+                </div>
+            </div>
+            <!-- items3 -->
+            <div class="swiper-slide ">
+                <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">Текст 3</span>
+                </div>
+            </div>            
+            <!-- items4 -->
+            <div class="swiper-slide ">
+                <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">Текст 4</span>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+        <!-- <div class="py-14 overflow-x-auto  flex justify-center mx-auto gap-8 items-center max-w-[1500px] ">
             <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
             <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
             <span class="text-base font-semibold pt-2">Текст 1</span>
@@ -335,56 +343,58 @@
             <span class="text-base font-semibold pt-2">Текст 6</span>
             </div>
 
-        </div>
+        </div> -->
     </article>
     <article class="max-w-[1433px]  mx-auto">
         <h2 class="font-semibold text-2xl pb-4">Хиты продаж</h2>
-<div class="swiper max-h-[587px]  mx-2 lg:mx-0 " >
-    <div class="swiper-wrapper" >
+<div class="swiper group pb-10 mx-2 lg:mx-0 " id="swiper3">
+    <div class="swiper-wrapper max-h-[587px]" >
         <!-- items 1 -->
-        <div class="swiper-slide  border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
-            <div class="flex justify-start lg:justify-center m-3 items-center">
-                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
-                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодное преложение</span>
-                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
-            </div>
-            <div class="flex lg:flex-col gap-2 mx-4">
-                <img class="w-1/3 lg:w-[300px] lg:h-[300px] object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4252-PhotoRoom.jpg" alt="">
-                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
-                    <span class="text-sm  text-gray-500">Костюмная</span>
-                    <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
-                    <div class="flex items-center justify-start">
-                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            
+                <div class="flex justify-start lg:justify-center m-3 items-center">
+                    <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                    <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                    <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+                </div>
+                <div class="flex lg:flex-col gap-2 mx-4">
+                    <img class="w-1/3  lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4252-PhotoRoom.jpg" alt="">
+                    <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                        <span class="text-sm  text-gray-500">Костюмная</span>
+                        <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
+                        <div class="flex items-center justify-start">
+                            <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                            
+                            <span class="text-sm text-gray-500">В наличии</span>
+                        </div>
                         
-                        <span class="text-sm text-gray-500">В наличии</span>
                     </div>
-                    
                 </div>
-            </div>
-            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
-                <span class="font-semibold text-lg">1199,97 р</span>
-                <div class="flex items-center gap-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>
+                <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                    <span class="font-semibold text-lg">1199,97 р</span>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
 
 
-                </div>
+                    </div>
 
-            </footer>
+                </footer>
+    
         </div>
         <!-- items 2 -->
-        <div class="swiper-slide h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
             <div class="flex justify-start lg:justify-center m-3 items-center">
                 <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
-                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодное преложение</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
                 <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
             </div>
             <div class="flex lg:flex-col gap-2 mx-4">
-                <img class="w-1/3 lg:w-[300px] lg:h-[300px] object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/2024-09-19%2013-23-37.jpg" alt="">
+                <img class="w-1/3 lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/2024-09-19%2013-23-37.jpg" alt="">
                 <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
                     <span class="text-sm  text-gray-500">Нитки и фурнитура</span>
                     <p class="text-sm lg:text-center font-semibold">19260. Рукоблудный кот. Набор пуговиц и фурнитуры. Вес 300 гр. Цена за набор </p>
@@ -412,14 +422,14 @@
             </footer>
         </div>
         <!-- items 3 -->
-        <div class="swiper-slide border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
             <div class="flex justify-start lg:justify-center m-3 items-center">
                 <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
-                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодное преложение</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
                 <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
             </div>
             <div class="flex lg:flex-col gap-2 mx-4">
-                <img class="w-1/3 lg:w-full rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4506-PhotoRoom.jpg" alt="">
+                <img class="w-1/3 lg:h-[300px] lg:w-full  object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4506-PhotoRoom.jpg" alt="">
                 <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
                     <span class="text-sm  text-gray-500">Костюмные ткани</span>
                     <p class="text-sm lg:text-center font-semibold">36955. "Любовь греет" Костюмная. Шерсть. Ворс. В клетку </p>
@@ -447,14 +457,14 @@
             </footer>
         </div>
         <!-- items 4 -->
-        <div class="swiper-slide border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
             <div class="flex justify-start lg:justify-center m-3 items-center">
                 <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
-                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодное преложение</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
                 <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
             </div>
             <div class="flex lg:flex-col gap-2 mx-4">
-                <img class="w-1/3 lg:w-full rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4297-PhotoRoom.jpg" alt="">
+                <img class="w-1/3 lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4297-PhotoRoom.jpg" alt="">
                 <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
                     <span class="text-sm  text-gray-500">Костюмные ткани</span>
                     <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
@@ -484,16 +494,30 @@
     </div>
 
     <!-- Добавьте навигацию, если нужно -->
-    <div class="swiper-button-next hidden lg:flex"></div>
-    <div class="swiper-button-prev hidden lg:flex"></div>
+
+   
+    <div class="swiper-button-next opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
+    <div class="swiper-button-prev opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
     <div class="swiper-pagination"></div>
 </div>
 
     </article>
-    <!-- <article class="flex  mx-auto my-8 gap-4 justify-center max-h-[256px] max-w-[1433px]">
-        <img class="max-w-[707px] object-cover rounded-xl" src="img/banner1.jpg" alt="">
-        <img class="max-w-[707px] object-cover rounded-xl" src="img/banner1.jpg" alt="">
-    </article> -->
+    <article class="mx-2 py-10 lg:mx-0">
+        <div class="swiper max-h-[256px] max-w-[1433px]"id="swiper4">
+    <div class="swiper-wrapper w-full">
+        <div class="swiper-slide ">
+            <img class=" object-cover rounded-xl w-[707px] max-h-[256px]" src="img/banner1.jpg" alt="">
+        </div>
+        <div class="swiper-slide ">
+            <img class=" object-cover rounded-xl w-[707px] max-h-[256px]" src="img/banner1.jpg" alt="">
+        </div>
+
+    </div>
+
+    </div>
+        
+        
+    </article>
     <article class="max-w-[1433px]  mx-auto">
         <h2 class="font-semibold text-2xl pb-4">Популярные категории</h2>
         <div class="grid grid-cols-3 md:grid-cols-6 grid-rows-2 gap-2 mx-2">
@@ -518,33 +542,33 @@
         <h2 class="text-center text-sm lg:text-lg font-semibold">Костюмные</h2>
     </div>
     <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
-        <img src="img/28246085_2.png" alt="Image 2" class="max-w-[175px] max-h-[124px]">
+        <img src="img/kurtka.png" alt="Image 2" class="max-w-[175px] max-h-[124px]">
         <h3 class="text-center text-sm lg:text-lg font-semibold ">Курточные</h3>
     </div>
-    <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
+    <div class="flex flex-col p-2 justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
         <img src="img/palto.png" alt="Image 1" class="max-w-[175px] max-h-[124px]">
         <h2 class="text-center text-sm lg:text-lg font-semibold">Пальтовые</h2>
     </div>
     <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
-        <img src="img/28246085_2.png" alt="Image 2" class="max-w-[175px] max-h-[124px]">
+        <img src="img/rubashka.png" alt="Image 2" class="max-w-[175px] max-h-[124px]">
         <h3 class="text-center text-sm lg:text-lg font-semibold ">Сорочные</h3>
     </div>
-    <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
-        <img src="img/shtora.png" alt="Image 1" class="max-w-[175px] max-h-[124px]">
+    <div class="flex flex-col justify-around items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
+        <img src="img/sewing_machine_PNG50.png" alt="Image 1" class="max-w-[106px] md:max-w-[175px] max-h-[124px]">
         <h2 class="text-center text-sm lg:text-lg font-semibold">Для ателье</h2>
     </div>
-    <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
-        <img src="img/28246085_2.png" alt="Image 2" class="max-w-[175px] max-h-[124px]">
+    <div class="flex flex-col justify-around items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
+        <img src="img/prazha-no-bg-preview (carve.photos).png" alt="Image 2" class="p-2 md:p-0 max-w-[175px] max-h-[124px]">
         <h3 class="text-center text-sm lg:text-lg font-semibold ">Пряжа</h3>
     </div>
-    <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
-        <img src="img/shtora.png" alt="Image 1" class="max-w-[175px] max-h-[124px]">
+    <div class="flex flex-col justify-around items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
+        <img src="img/furnitura.png" alt="Image 1" class="p-7 md:p-0 max-w-[175px] max-h-[124px]">
         <h2 class="text-center text-sm lg:text-lg font-semibold">Нитки и фургнитура</h2>
     </div>
-    <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
+    <!-- <div class="flex flex-col justify-center items-center border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl">
         <img src="img/28246085_2.png" alt="Image 2" class="max-w-[175px] max-h-[124px]">
         <h3 class="text-center text-sm lg:text-lg font-semibold ">Трикотажные полотна</h3>
-    </div>
+    </div> -->
 </div>
     </article>
 
@@ -554,7 +578,7 @@
 
 <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" class="hover:underline">Ткани сайт™</a>. All Rights Reserved.
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
@@ -628,14 +652,18 @@
 </div> 
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js"></script>
+
 <script>
-    const swiper = new Swiper('.swiper', {
+    const swiper3 = new Swiper('#swiper3', {
         slidesPerView: 1,
         spaceBetween: 30,
         breakpoints: {
       640: {
         slidesPerView: 2,
       },
+        // 768: {
+        //     slidesPerView: 3, // 2 слайда на экранах от 640px до 768px
+        // },
       1024: {
         slidesPerView: 4,
       },
@@ -646,15 +674,83 @@
             disableOnInteraction: false,
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '#swiper3 .swiper-pagination',
             clickable: true,
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '#swiper3 .swiper-button-next',
+            prevEl: '#swiper3 .swiper-button-prev',
         },
     });
 </script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('#swiper3 .swiper-slide');
+    let maxHeight = 0;
 
+    // Вычисляем максимальную высоту
+    slides.forEach(slide => {
+        const slideHeight = slide.offsetHeight;
+        if (slideHeight > maxHeight) {
+            maxHeight = slideHeight;
+        }
+    });
+
+    // Устанавливаем всем слайдам максимальную высоту
+    slides.forEach(slide => {
+        slide.style.height = `${maxHeight}px`;
+    });
+});
+</script>
+<script>
+    const swiper4 = new Swiper('#swiper4 ', {
+    
+    slidesPerView: 1,
+    spaceBetween: 30,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+      },
+        // 768: {
+        //     slidesPerView: 3, // 2 слайда на экранах от 640px до 768px
+        // },
+      1024: {
+        slidesPerView: 2,
+      },
+    },
+    scrollbar: {
+        el: '#swiper4 .swiper-scrollbar',
+        hide: true,
+    },
+    mousewheel: {
+        invert: false,
+    },
+});
+</script>
+<script>
+    const swiper2 = new Swiper('#swiper2 ', {
+    
+    slidesPerView: 3,
+    spaceBetween: 0,
+    breakpoints: {
+      640: {
+        slidesPerView: 3,
+      },
+        // 768: {
+        //     slidesPerView: 3, // 2 слайда на экранах от 640px до 768px
+        // },
+      1024: {
+        slidesPerView: 6,
+      },
+    },
+    scrollbar: {
+        el: '#swiper2 .swiper-pagination',
+        hide: true,
+    },
+    mousewheel: {
+        invert: false,
+    },
+});
+</script>
 </body>
 </html>
