@@ -12,8 +12,6 @@
 </head>
 <body class="bg-white">
     <header>
-
-
 <nav class=" border-gray-200 ">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-[1500px] p-4">
         <a href="#" class="flex items-center flex-1 justify-center md:mr-4 space-x-3">
@@ -32,7 +30,6 @@
                         <svg class="size-6 text-[#2f4578] " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                         </svg>
-
                     </button>
                 </div>
             </form>
@@ -198,7 +195,7 @@
             <svg class="size-7  text-gray-300 " viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.7998 5H21.2998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M16.7998 12H21.2998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M3.2998 19H21.2998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M7.57096 12.6253C9.9757 12.6253 11.9251 10.6759 11.9251 8.27116C11.9251 5.86642 9.9757 3.91699 7.57096 3.91699C5.16622 3.91699 3.2168 5.86642 3.2168 8.27116C3.2168 10.6759 5.16622 12.6253 7.57096 12.6253Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12.7999 13.5001L10.8555 11.5557" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             <span class="text-xs text-white">Каталог</span>
         </button>
-        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 group">
+        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 group">
             <svg class="size-7  text-gray-300 "  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
             </svg>
@@ -210,13 +207,13 @@
                 <span class="sr-only">Home</span>
             </button>
         </div>
-        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+        <button  type="button" class="inline-flex flex-col items-center justify-center px-5  group">
             <svg class="size-7  text-gray-300 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
             </svg>
             <span class="text-xs text-white">Избранное</span>
         </button>
-        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
+        <button  type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full group">
             <svg class="size-7  text-gray-300 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
             </svg>
@@ -229,7 +226,7 @@
     </header>
 <main>
     <!-- Карусель banners -->
-    <article class="px-2.5 lg:px-0">
+    <article class="px-2.5  lg:px-0">
         <div id="default-carousel" class="relative w-full " data-carousel="slide" data-carousel-interval="7000">
             <!-- Carousel wrapper -->
             <div class="relative h-40 overflow-hidden rounded-2xl  lg:rounded-none  md:h-[450px]">
@@ -282,38 +279,44 @@
         </div>
     </article>
     <article class="relative top-14 lg:-top-6 lg:z-50  bg-white rounded-t-3xl">
-    <div class="swiper py-14 mx-auto max-w-[1500px]"id="swiper2">
-        <div class="swiper-wrapper justify-center">
+    <div class="swiper py-14  max-w-[800px]"id="swiper2">
+        <div class="swiper-wrapper mx-auto">
+
             <!-- items1 -->
             <div class="swiper-slide ">
-            <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
-                <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
-                <span class="text-base font-semibold pt-2">Текст 1</span>
-            </div>
+                <div class=" flex flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] " src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">Скидки</span>
+                </div>
             </div>
             <!-- items2 -->
             <div class="swiper-slide ">
-                <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
-                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
-                    <span class="text-base font-semibold pt-2">Текст 2</span>
-                </div>
-            </div>
-            <!-- items3 -->
-            <div class="swiper-slide ">
-                <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
-                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
-                    <span class="text-base font-semibold pt-2">Текст 3</span>
+                <div class="  flex flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] " src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">О заказах</span>
                 </div>
             </div>            
-            <!-- items4 -->
+            <!-- items3 -->
             <div class="swiper-slide ">
-                <div class="w-16 h-16 flex-shrink-0 lg:size-28 flex ml-10 flex-col justify-center items-center">
-                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] dark:ring-gray-500" src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
-                    <span class="text-base font-semibold pt-2">Текст 4</span>
+                <div class="  flex  flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] " src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">Видеообзоры</span>
                 </div>
             </div>
-            
-
+            <!-- items4 -->
+            <div class="swiper-slide ">
+                <div class=" flex  flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] " src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base text-center font-semibold pt-2">Анонсы скидок на 2 часа</span>
+                </div>
+            </div>            
+            <!-- items5 -->
+            <div class="swiper-slide ">
+                <div class=" flex  flex-col justify-center items-center">
+                    <img class=" p-0.5 rounded-full ring-4 ring-[#31b7e3] " src="https://cdn2.technopark.ru/technopark/photos_resized/banner_v2_main_round_100_100/100_100/758558/1_758558.jpg" alt="Bordered avatar">
+                    <span class="text-base font-semibold pt-2">Текст 5</span>
+                </div>
+            </div> 
         </div>
 
     </div>
@@ -493,9 +496,7 @@
         </div>
     </div>
 
-    <!-- Добавьте навигацию, если нужно -->
-
-   
+    <!-- Добавьте навигацию, если нужно -->   
     <div class="swiper-button-next opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
     <div class="swiper-button-prev opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
     <div class="swiper-pagination"></div>
@@ -518,6 +519,317 @@
         
         
     </article>
+        <article class="max-w-[1433px]  mx-auto">
+        <h2 class="font-semibold text-2xl pb-4">Новинки</h2>
+<div class="swiper group pb-10 mx-2 lg:mx-0 " id="swiper3">
+    <div class="swiper-wrapper max-h-[587px]" >
+        <!-- items 1 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            
+                <div class="flex justify-start lg:justify-center m-3 items-center">
+                    <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                    <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                    <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+                </div>
+                <div class="flex lg:flex-col gap-2 mx-4">
+                    <img class="w-1/3  lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4252-PhotoRoom.jpg" alt="">
+                    <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                        <span class="text-sm  text-gray-500">Костюмная</span>
+                        <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
+                        <div class="flex items-center justify-start">
+                            <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                            
+                            <span class="text-sm text-gray-500">В наличии</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                    <span class="font-semibold text-lg">1199,97 р</span>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+
+
+                    </div>
+
+                </footer>
+    
+        </div>
+        <!-- items 2 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            <div class="flex justify-start lg:justify-center m-3 items-center">
+                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+            </div>
+            <div class="flex lg:flex-col gap-2 mx-4">
+                <img class="w-1/3 lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/2024-09-19%2013-23-37.jpg" alt="">
+                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                    <span class="text-sm  text-gray-500">Нитки и фурнитура</span>
+                    <p class="text-sm lg:text-center font-semibold">19260. Рукоблудный кот. Набор пуговиц и фурнитуры. Вес 300 гр. Цена за набор </p>
+                    <div class="flex items-center justify-start">
+                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                        
+                        <span class="text-sm text-gray-500">В наличии</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                <span class="font-semibold text-lg">300,00 р</span>
+                <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+
+                </div>
+
+            </footer>
+        </div>
+        <!-- items 3 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            <div class="flex justify-start lg:justify-center m-3 items-center">
+                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+            </div>
+            <div class="flex lg:flex-col gap-2 mx-4">
+                <img class="w-1/3 lg:h-[300px] lg:w-full  object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4506-PhotoRoom.jpg" alt="">
+                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                    <span class="text-sm  text-gray-500">Костюмные ткани</span>
+                    <p class="text-sm lg:text-center font-semibold">36955. "Любовь греет" Костюмная. Шерсть. Ворс. В клетку </p>
+                    <div class="flex items-center justify-start">
+                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                        
+                        <span class="text-sm text-gray-500">В наличии</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                <span class="font-semibold text-lg">1199,97 р</span>
+                <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+
+                </div>
+
+            </footer>
+        </div>
+        <!-- items 4 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            <div class="flex justify-start lg:justify-center m-3 items-center">
+                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+            </div>
+            <div class="flex lg:flex-col gap-2 mx-4">
+                <img class="w-1/3 lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4297-PhotoRoom.jpg" alt="">
+                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                    <span class="text-sm  text-gray-500">Костюмные ткани</span>
+                    <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
+                    <div class="flex items-center justify-start">
+                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                        
+                        <span class="text-sm text-gray-500">В наличии</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                <span class="font-semibold text-lg">1199,97 р</span>
+                <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <!-- Добавьте навигацию, если нужно -->   
+    <div class="swiper-button-next opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
+    <div class="swiper-button-prev opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+    </article>
+            <article class="max-w-[1433px]  mx-auto">
+        <h2 class="font-semibold text-2xl pb-4">Только для платных подписчиков в Вконтакте</h2>
+<div class="swiper group pb-10 mx-2 lg:mx-0 " id="swiper3">
+    <div class="swiper-wrapper max-h-[587px]" >
+        <!-- items 1 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            
+                <div class="flex justify-start lg:justify-center m-3 items-center">
+                    <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                    <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                    <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+                </div>
+                <div class="flex lg:flex-col gap-2 mx-4">
+                    <img class="w-1/3  lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4252-PhotoRoom.jpg" alt="">
+                    <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                        <span class="text-sm  text-gray-500">Костюмная</span>
+                        <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
+                        <div class="flex items-center justify-start">
+                            <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                            
+                            <span class="text-sm text-gray-500">В наличии</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                    <span class="font-semibold text-lg">1199,97 р</span>
+                    <div class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+
+
+                    </div>
+
+                </footer>
+    
+        </div>
+        <!-- items 2 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            <div class="flex justify-start lg:justify-center m-3 items-center">
+                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+            </div>
+            <div class="flex lg:flex-col gap-2 mx-4">
+                <img class="w-1/3 lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/2024-09-19%2013-23-37.jpg" alt="">
+                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                    <span class="text-sm  text-gray-500">Нитки и фурнитура</span>
+                    <p class="text-sm lg:text-center font-semibold">19260. Рукоблудный кот. Набор пуговиц и фурнитуры. Вес 300 гр. Цена за набор </p>
+                    <div class="flex items-center justify-start">
+                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                        
+                        <span class="text-sm text-gray-500">В наличии</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                <span class="font-semibold text-lg">300,00 р</span>
+                <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+
+                </div>
+
+            </footer>
+        </div>
+        <!-- items 3 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            <div class="flex justify-start lg:justify-center m-3 items-center">
+                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+            </div>
+            <div class="flex lg:flex-col gap-2 mx-4">
+                <img class="w-1/3 lg:h-[300px] lg:w-full  object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4506-PhotoRoom.jpg" alt="">
+                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                    <span class="text-sm  text-gray-500">Костюмные ткани</span>
+                    <p class="text-sm lg:text-center font-semibold">36955. "Любовь греет" Костюмная. Шерсть. Ворс. В клетку </p>
+                    <div class="flex items-center justify-start">
+                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                        
+                        <span class="text-sm text-gray-500">В наличии</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                <span class="font-semibold text-lg">1199,97 р</span>
+                <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+
+                </div>
+
+            </footer>
+        </div>
+        <!-- items 4 -->
+        <div class="swiper-slide w-[277px] flex justify-between flex-col h-full border border-[#d8c6aa] shadow bg-[#f8f0e4] rounded-2xl ">
+            <div class="flex justify-start lg:justify-center m-3 items-center">
+                <span class="bg-green-200 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">Новинка</span>
+                <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">Выгодно</span>
+                <span class="bg-pink-100 text-pink-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">Хит</span>
+            </div>
+            <div class="flex lg:flex-col gap-2 mx-4">
+                <img class="w-1/3 lg:h-[300px] lg:w-full object-cover rounded-xl" src="https://tkani.site/images/stories/virtuemart/product/IMG_4297-PhotoRoom.jpg" alt="">
+                <div class="flex flex-col justify-start lg:justify-center lg:items-center w-full">
+                    <span class="text-sm  text-gray-500">Костюмные ткани</span>
+                    <p class="text-sm lg:text-center font-semibold">36911."Любовь греет" Костюмная. Фланель. Шерсть. В клетку</p>
+                    <div class="flex items-center justify-start">
+                        <div class="w-1.5 h-1.5 me-2 rounded-full bg-green-500"></div>
+                        
+                        <span class="text-sm text-gray-500">В наличии</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <footer class="flex justify-between items-center border-t border-[#d8c6aa] mt-4 py-2 mx-6">
+                <span class="font-semibold text-lg">1199,97 р</span>
+                <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-gray-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-gray-100 p-2 rounded-full bg-orange-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <!-- Добавьте навигацию, если нужно -->   
+    <div class="swiper-button-next opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
+    <div class="swiper-button-prev opacity-0 group-hover:opacity-100 font-extrabold hidden rounded-full bg-gray-800/60 p-7 text-white lg:flex"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+    </article>
+    <!-- меню -->
     <article class="max-w-[1433px]  mx-auto">
         <h2 class="font-semibold text-2xl pb-4">Популярные категории</h2>
         <div class="grid grid-cols-3 md:grid-cols-6 grid-rows-2 gap-2 mx-2">
@@ -658,16 +970,16 @@
         slidesPerView: 1,
         spaceBetween: 30,
         breakpoints: {
-      640: {
-        slidesPerView: 2,
-      },
-        // 768: {
-        //     slidesPerView: 3, // 2 слайда на экранах от 640px до 768px
-        // },
-      1024: {
-        slidesPerView: 4,
-      },
-    },
+            640: {
+                slidesPerView: 2,
+            },
+                // 768: {
+                //     slidesPerView: 3, // 2 слайда на экранах от 640px до 768px
+                // },
+            1024: {
+                slidesPerView: 4,
+            },
+            },
         loop: true,
         autoplay: {
             delay: 7000,
@@ -718,13 +1030,13 @@ document.addEventListener('DOMContentLoaded', function() {
         slidesPerView: 2,
       },
     },
-    scrollbar: {
-        el: '#swiper4 .swiper-scrollbar',
-        hide: true,
+    pagination: {
+        el: '#swiper4 .swiper-pagination',
+        clickable: true,
     },
-    mousewheel: {
-        invert: false,
-    },
+    // mousewheel: {
+    //     invert: false,
+    // },
 });
 </script>
 <script>
@@ -740,16 +1052,17 @@ document.addEventListener('DOMContentLoaded', function() {
         //     slidesPerView: 3, // 2 слайда на экранах от 640px до 768px
         // },
       1024: {
-        slidesPerView: 6,
+        slidesPerView: 5,
+        spaceBetween: 30,
       },
     },
-    scrollbar: {
+    pagination: {
         el: '#swiper2 .swiper-pagination',
-        hide: true,
+        clickable: true,
     },
-    mousewheel: {
-        invert: false,
-    },
+    // mousewheel: {
+    //     invert: false,
+    // },
 });
 </script>
 </body>
